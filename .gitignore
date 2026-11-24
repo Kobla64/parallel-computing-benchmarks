@@ -1,0 +1,33 @@
+# Compiled C/CUDA objects and binaries
+*.o
+*.obj
+*.out
+*.exe
+*.so
+*.a
+*.dylib
+
+# Specific project executables
+01-mandelbrot-openmp-pthreads/mandelbrot_seq
+01-mandelbrot-openmp-pthreads/mandelbrot_pth
+01-mandelbrot-openmp-pthreads/mandelbrot_omp
+02-heat-equation-cuda/heat
+02-heat-equation-cuda/heat_cuda
+02-heat-equation-cuda/heat_tarefa3
+
+# Raw grid dumps and temporary benchmark outputs
+*.ppm
+02-heat-equation-cuda/*.txt
+*.tmp
+*.log
+perf.data*
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor metadata
+.DS_Store
+._*
